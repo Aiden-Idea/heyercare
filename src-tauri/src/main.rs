@@ -14,19 +14,19 @@ use app:: patients ;
 fn main() -> std::io::Result<()> {
     init_db().expect("初始化数据库失败！");
 
-    let mut file = File::open("src/72710009.Bkp")?;
-    // let mut buffer = [0u8; 8];
-    // println!("{:?}", buffer);
-    // let data = file.read(&mut buffer);
-    // println!("{:?}", buffer);
-    file.seek(SeekFrom::Start(2))?;
-    let mut reader = BufReader::new(file);
-    let mut line = [0u8; 8];
-    // reader.read_line(&mut line);
-    reader.read_exact(&mut line);
+    // let mut file = File::open("src/72710009.Bkp")?;
+    // // let mut buffer = [0u8; 8];
+    // // println!("{:?}", buffer);
+    // // let data = file.read(&mut buffer);
+    // // println!("{:?}", buffer);
+    // file.seek(SeekFrom::Start(2))?;
+    // let mut reader = BufReader::new(file);
+    // let mut line = [0u8; 8];
+    // // reader.read_line(&mut line);
+    // reader.read_exact(&mut line);
 
-    println!("{:?}", reader);
-    println!("{:?}", line);
+    // println!("{:?}", reader);
+    // println!("{:?}", line);
 
     
 

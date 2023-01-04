@@ -13,6 +13,15 @@ const props = defineProps<{
   menu: Menu[]
 }>()
 
+const emit = defineEmits<{
+  (e: "handelMenuItem"): void
+}>()
+
+const handleMenu = (menuItem: Menu) => {
+  activeMenu.value = menuItem.title
+  emit("handelMenuItem")
+}
+
 
 </script>
 <template>
@@ -25,7 +34,7 @@ const props = defineProps<{
       <p>三</p>
     </div>
     <div class="menu_list">
-      <div class="menu_item cs" :class="{'menu_active': item.title === activeMenu}" v-for="item in props.menu">
+      <div v-for="item in props.menu" @click="handleMenu(item)" class="menu_item cs" :class="{'menu_active': item.title === activeMenu}">
         {{item.title}}
       </div>
     </div>

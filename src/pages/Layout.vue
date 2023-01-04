@@ -1,15 +1,29 @@
 <script setup lang="ts">
 import MenuBar from '@/components/MenuBar.vue'
+import setKeepAlive, { kEEP_ALIVE_MAP } from '@/utils/useCache'
+import { onBeforeRouteLeave, useRoute } from 'vue-router';
+
+const route = useRoute()
+
+onBeforeRouteLeave((to, from, next) => {
+  // if(to.name !== "Data") {
+  //   setKeepAlive("Data", new Date().getTime())
+  // }
+  console.log('aa');
+  
+  console.log(to, from);
+  
+  next()
+})
+
 </script>
 <template>
   <MenuBar />
-  <!-- <router-view></router-view> -->
-  <!-- default – 进入和离开过渡同时发生
-  in-out – 新元素的过渡先进入。然后，当前元素过渡出去。
-  out-in - 当前元素先过渡出去。然后，新元素过渡进来。 -->
-  <!-- <transition name="fade" mode="default">
-  </transition> -->
-  <router-view />
+  <!-- TODO 过渡动画 -->
+  <!-- 利用缓存的时间戳key 保证页面保鲜 -->
+  <router-view v-slot="{ Component }">
+
+  </router-view>
 </template>
 <style>
 /*页面切换动画*/

@@ -28,7 +28,8 @@ export const pageRouter = [
     name: 'Data',
     component: () => import('@/pages/Data/index.vue'),
     meta: {
-      title: '查看数据'
+      title: '查看数据',
+      keepAlive: true
     }
   },
   {

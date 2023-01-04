@@ -1,3 +1,8 @@
+<script lang="ts">
+export default {
+  name: "Archives"
+};
+</script>
 <script setup lang="ts">
 import SideBar from '@/components/SideBar.vue';
 import { ref } from 'vue';
