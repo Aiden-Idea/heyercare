@@ -1060,6 +1060,7 @@ dependencies = [
 name = "heyercare"
 version = "0.0.0"
 dependencies = [
+ "anyhow",
  "rusqlite",
  "serde",
  "serde_json",
