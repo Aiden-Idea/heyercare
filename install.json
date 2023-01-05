@@ -1,0 +1,27 @@
+{
+  "version": "v0.0.15",
+  "notes": "test",
+  "pub_date": "2023-01-05T14:44:35.602Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTGZMZDhWaFBmcVUzQ09LNllONXFOYmFseG8zMnB6eU1WYU1kdjV2NGRDelBBUnFPQVA1WDBaSE9DRmxuMWtMMktkVzV3WWwvUHBHb0lxZEV1ZW9qeWRUN1NmVFBoVlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyOTI5NzcxCWZpbGU6aGV5ZXJjYXJlXzAuMC4xNV94NjRfZW4tVVMubXNpLnppcAo5R2k0ZGhsZmVGdHlhSll6MU53enQ3V3RiU3NqaWc4TGtxZlBHb3NIUkJrQzIwdGlDSFlvdVRiaE9meFRaZUhLVFNnaENRNlpKZ2FUQjZTRkp6eU5CZz09Cg==",
+      "url": "https://github.com/aidenup/heyercare/releases/download/v0.0.15/heyercare_0.0.15_x64_en-US.msi.zip"
+    },
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTGZMZDhWaFBmcVkrUTZtdFc3UkpwdXNFamlxSWJhV0s3UkZpdERwZGY5SVA1TlR5NFpudFJHUVNhOXZabVpqbkx4emJhRXlKTUhNN1RIMXh1WDd4eVgxRW9xV2lia3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyOTI5ODMyCWZpbGU6aGV5ZXJjYXJlLmFwcC50YXIuZ3oKak1PN1dQTVdtNWNpbE1tdXJKY0xXNWRxWVNGai9BSFZHcmthclFxdUpsZFNKbnIyZ2MyUjN5T0FncENxNjY0bzJSN2pob1lEdXRMVnhHck9HZ0VyRFE9PQo=",
+      "url": "https://github.com/aidenup/heyercare/releases/download/v0.0.15/heyercare.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTGZMZDhWaFBmcVkrUTZtdFc3UkpwdXNFamlxSWJhV0s3UkZpdERwZGY5SVA1TlR5NFpudFJHUVNhOXZabVpqbkx4emJhRXlKTUhNN1RIMXh1WDd4eVgxRW9xV2lia3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyOTI5ODMyCWZpbGU6aGV5ZXJjYXJlLmFwcC50YXIuZ3oKak1PN1dQTVdtNWNpbE1tdXJKY0xXNWRxWVNGai9BSFZHcmthclFxdUpsZFNKbnIyZ2MyUjN5T0FncENxNjY0bzJSN2pob1lEdXRMVnhHck9HZ0VyRFE9PQo=",
+      "url": "https://github.com/aidenup/heyercare/releases/download/v0.0.15/heyercare.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTGZMZDhWaFBmcVkrUTZtdFc3UkpwdXNFamlxSWJhV0s3UkZpdERwZGY5SVA1TlR5NFpudFJHUVNhOXZabVpqbkx4emJhRXlKTUhNN1RIMXh1WDd4eVgxRW9xV2lia3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyOTI5ODMyCWZpbGU6aGV5ZXJjYXJlLmFwcC50YXIuZ3oKak1PN1dQTVdtNWNpbE1tdXJKY0xXNWRxWVNGai9BSFZHcmthclFxdUpsZFNKbnIyZ2MyUjN5T0FncENxNjY0bzJSN2pob1lEdXRMVnhHck9HZ0VyRFE9PQo=",
+      "url": "https://github.com/aidenup/heyercare/releases/download/v0.0.15/heyercare.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTGZMZDhWaFBmcVUzQ09LNllONXFOYmFseG8zMnB6eU1WYU1kdjV2NGRDelBBUnFPQVA1WDBaSE9DRmxuMWtMMktkVzV3WWwvUHBHb0lxZEV1ZW9qeWRUN1NmVFBoVlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyOTI5NzcxCWZpbGU6aGV5ZXJjYXJlXzAuMC4xNV94NjRfZW4tVVMubXNpLnppcAo5R2k0ZGhsZmVGdHlhSll6MU53enQ3V3RiU3NqaWc4TGtxZlBHb3NIUkJrQzIwdGlDSFlvdVRiaE9meFRaZUhLVFNnaENRNlpKZ2FUQjZTRkp6eU5CZz09Cg==",
+      "url": "https://github.com/aidenup/heyercare/releases/download/v0.0.15/heyercare_0.0.15_x64_en-US.msi.zip"
+    }
+  }
+}
