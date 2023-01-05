@@ -16,7 +16,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: "handelMenuItem"): void
 }>()
-
+  
 const handleMenu = (menuItem: Menu) => {
   activeMenu.value = menuItem.title
   emit("handelMenuItem")
